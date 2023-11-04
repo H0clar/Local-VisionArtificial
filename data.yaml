@@ -1,0 +1,13 @@
+train: C:\Users\Oso\PycharmProjects\VISION\data\train
+val: C:\Users\Oso\PycharmProjects\VISION\data\valid
+test:
+
+nc: 6
+names: ['basura','carton','metal','papel', 'plastico','vidrio']
+
+roboflow:
+  workspace: asdasd-zvg6s
+  project: detector-basura1
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/asdasd-zvg6s/detector-basura1/dataset/1
